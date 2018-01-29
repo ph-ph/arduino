@@ -14,7 +14,7 @@ Download drawings and code at: -- GITHUB LINK --
 
 #include <LiquidCrystal.h>          //the liquid crystal libarry contains commands for printing to the display
 
-#define TIMER_INTERVAL 10 // standard pomodoro interval time, in seconds
+#define TIMER_INTERVAL 25*60 // standard pomodoro interval time, in seconds
 #define GREEN_LED_PIN 7
 #define GREEN_BUTTON_PIN 6
 #define RED_BUTTON_PIN 5
